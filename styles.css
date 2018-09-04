@@ -1,3 +1,4 @@
+/* Global */
 #gpay-notice-div {
     display: none;
     position: fixed;
@@ -15,61 +16,10 @@
     background-color: #fefefe;
     margin: 15% auto;
     /* 15% from the top and centered */
-    padding: 20px;
+    padding: 1.4vw;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
-    /* Could be more or less, depending on screen size */
-}
-
-@media (min-width: 1300px) {
-    #gpay-email {
-        font-size: 200%;
-    }
-}
-
-@media (max-width: 1299px) {
-    #gpay-email {
-        font-size: 150%;
-    }
-}
-
-@media (min-width: 1300px) {
-    #gpay-header {
-        font-size: 300%;
-        margin: 0 0 2% 0;
-    }
-}
-
-@media (max-width: 1299px) {
-    #gpay-header {
-        font-size: 175%;
-        margin: 0 0 2% 0;
-    }
-}
-
-@media (min-width: 1300px) {
-    .gpay-instructions {
-        font-size: 180%;
-        margin: 0.5% 0 1% 0;
-    }
-}
-
-@media (max-width: 1299px) {
-    .gpay-instructions {
-        font-size: 100%;
-        margin: 0.5% 0 2% 0;
-    }
-}
-
-@media (max-width: 1299px) {
-    #gpay-email-div {
-        margin: 0 0 2% 0
-    }
-}
-
-@media (min-width: 1300px) {
-    #gpay-email-div {}
 }
 
 #portrait {
@@ -86,12 +36,147 @@
 }
 
 #header-div {
-    padding: 2% 0 0 0.5%;
+    overflow: hidden;
+}
+
+p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.no-margin {
+    margin: 0 0 0 0;
+}
+
+#contact-list-div {
+    text-align: center;
+}
+
+/* Desktop */
+@media (min-width: 1300px) {
+    #gpay-email {
+        font-size: 3.4vw;
+    }
+}
+
+@media (min-width: 1300px) {
+    #gpay-notice {
+        background-color: #fefefe;
+        margin: 15% auto;
+        /* 15% from the top and centered */
+        padding: 1.4vw;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (min-width: 1300px) {
+    #gpay-header {
+        font-size: 2.8vw;
+        margin: 0 0 2% 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .gpay-instructions {
+        font-size: 1.7vw;
+        margin: 0.5% 0 1% 0;
+        line-height: 1.7vw;
+    }
+}
+
+@media (min-width: 1300px) {
+    #gpay-email-div {}
 }
 
 @media (min-width: 1300px) {
     #header {
-        font-size: 300%;
+        font-size: 3.3vw;
+        margin: 1.1vw 0 1.1vw 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contact-icon {
+        margin: 0 0.5vw 0 0;
+    }
+}
+
+@media (max-width: 1299px) {
+    #gpay-email {
+        font-size: 150%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #contact-header {
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 1.6vw;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 0 0 0 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    #contact-list {
+        margin: 0 0 0 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .donate-button {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #donate-header {
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 1.6vw;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 1300px) {
+    #donate-button-div {}
+}
+
+/* Phone/Tablet */
+@media (max-width: 1299px) {
+    #gpay-header {
+        font-size: 175%;
+        margin: 0 0 2% 0;
+    }
+}
+
+@media (max-width: 1299px) {
+    #gpay-notice {
+        background-color: #fefefe;
+        margin: 15% auto;
+        /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        box-shadow: 0 9px 46px 8px rgba(0, 0, 0, 0.14), 0 11px 15px -7px rgba(0, 0, 0, 0.12), 0 24px 38px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 1299px) {
+    .gpay-instructions {
+        font-size: 100%;
+        margin: 0.5% 0 2% 0;
+    }
+}
+
+@media (max-width: 1299px) {
+    #gpay-email-div {
+        margin: 0 0 2% 0
     }
 }
 
@@ -102,66 +187,22 @@
     }
 }
 
-@media (min-width: 1300px) {
-    .contact-icon {
-        margin: 0 1.3% 0 0;
-    }
-}
-
 @media (max-width: 1299px) {
     .contact-icon {
-        margin: 0 3% 0 0;
+        margin: 0 8px 0 0;
     }
-}
-
-p {
-    font-family: "Helvetica", "Arial", sans-serif;
-}
-
-#contact-header-div {
-    padding: 3% 0 0 0.5%;
 }
 
 @media (max-width: 1299px) {
     #contact-header {
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
         text-align: center;
     }
 }
 
-@media (min-width: 1300px) {
-    #contact-header {}
-}
-
-@media (max-width: 1299px) {
-    #project-header {
-        text-align: center;
-    }
-}
-
-@media (min-width: 1300px) {
-    #project-header {}
-}
-
-@media (max-width: 1299px) {
-    .project-card-div {
-        text-align: center;
-    }
-}
-
-@media (min-width: 1300px) {
-    .project-card-div {}
-}
-
-
-#project-header-div {
-    padding: 1.5% 0 0 0
-}
-
-.project {}
-
-.contact-item {
-    padding: 0 0 0 0;
-}
 
 @media (max-width: 1299px) {
     #contact-list {
@@ -170,24 +211,6 @@ p {
     }
 }
 
-@media (min-width: 1300px) {
-    #contact-list {}
-}
-
-.no-margin {
-    margin: 0 0 0 0;
-}
-
-#contact-list-div {
-    padding: 0 0 0 0.5%;
-    text-align: center;
-}
-
-@media (min-width: 1300px) {
-    .donate-button {
-        width: 25%;
-    }
-}
 
 @media (max-width: 1299px) {
     .donate-button {
@@ -200,25 +223,16 @@ p {
     #donate-header {
         text-align: center;
         margin: 0 0 1% 0;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
     }
 }
 
-@media (min-width: 1300px) {
-    #donate-header {}
-}
-
-
-#donate-header-div {
-    margin: 0 0 0 0;
-    padding: 1% 0 0 0.5%;
-}
 
 @media (max-width: 1299px) {
     #donate-button-div {
         text-align: center;
     }
-}
-
-@media (min-width: 1300px) {
-    #donate-button-div {}
 }
