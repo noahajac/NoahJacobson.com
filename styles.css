@@ -47,10 +47,6 @@ a {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
-.no-margin {
-    margin: 0 0 0 0;
-}
-
 #contact-list-div {
     text-align: center;
 }
@@ -141,10 +137,6 @@ a {
         font-weight: 400;
         line-height: 32px;
     }
-}
-
-@media (min-width: 1300px) {
-    #donate-button-div {}
 }
 
 /* Phone/Tablet */
