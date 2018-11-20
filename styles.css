@@ -125,12 +125,6 @@ a {
 }
 
 @media (min-width: 1300px) {
-    .donate-button {
-        width: 25%;
-    }
-}
-
-@media (min-width: 1300px) {
     #donate-header {
         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
         font-size: 1.6vw;
@@ -203,14 +197,6 @@ a {
     }
 }
 
-
-@media (max-width: 1299px) {
-    .donate-button {
-        width: 75%;
-        margin: 1%;
-    }
-}
-
 @media (max-width: 1299px) {
     #donate-header {
         text-align: center;
@@ -224,7 +210,7 @@ a {
 
 
 @media (max-width: 1299px) {
-    #donate-button-div {
+    .donate-button-div {
         text-align: center;
     }
 }
