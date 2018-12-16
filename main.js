@@ -4,9 +4,9 @@ var gPayButtonLink = document.getElementById("gpay-button-link");
 var gPayButton = document.getElementById("gpay-button");
 var payPalButtonLink = document.getElementById("paypal-button-link");
 var payPalButton = document.getElementById("paypal-button");
-gPayButtonLink.removeAttribute("href");
+gPayButtonLink.replaceWith(gPayButton);
 gPayButton.innerHTML = "Google Pay";
-payPalButtonLink.removeAttribute("href");
+payPalButtonLink.replaceWith(payPalButton);
 payPalButton.innerHTML = "PayPal";
 
 function copyEmail() {
