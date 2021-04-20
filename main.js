@@ -28,7 +28,7 @@ function closeNotice() {
 
 function openPayPal() {
     "use strict";
-    window.open("https://paypal.me/noahajac2", "_blank");
+    window.open("https://paypal.me/noahajac3", "_blank");
 }
 
 function openGooglePay() {
